@@ -1,0 +1,23 @@
+{
+  "id": "dnd5e-it",
+  "title": "D&D 5e - Italiano",
+  "description": "Traduzione italiana del sistema dnd5e per Foundry VTT",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Alessandro"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "languages": [
+    {
+      "lang": "it",
+      "name": "Italiano",
+      "path": "lang/it.json",
+      "gen": true
+    }
+  ]
+}
