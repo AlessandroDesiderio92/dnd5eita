@@ -20,5 +20,6 @@
       "gen": true
     }
   ],
-  "manifest": "https://raw.githubusercontent.com/AlessandroDesiderio92/dnd5eita/main/module.json"
+  "manifest": "https://raw.githubusercontent.com/AlessandroDesiderio92/dnd5eita/main/module.json",
+  "download": "https://github.com/AlessandroDesiderio92/dnd5eita/archive/refs/heads/main.zip"
 }
