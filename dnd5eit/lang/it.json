@@ -1,70 +1,70 @@
 {
 "DOCUMENT.DND5E": {
-  "Activity": "Activity",
-  "Advancement": "Advancement",
+  "Activity": "Attività",
+  "Advancement": "Avanzamento",
   "Warning": {
-    "SelectType": "{name} type must be selected for creation."
+    "SelectType": "Deve essere selezionato un tipo di {name} per la creazione."
   }
 },
 
-"TYPES.Actor.character": "Player Character",
-"TYPES.Actor.characterPl": "Player Characters",
-"TYPES.Actor.encounter": "Encounter",
-"TYPES.Actor.encounterPl": "Encounters",
-"TYPES.Actor.group": "Group",
-"TYPES.Actor.groupPl": "Groups",
-"TYPES.Actor.npc": "Non-Player Character",
-"TYPES.Actor.npcPl": "Non-Player Characters",
-"TYPES.Actor.vehicle": "Vehicle",
-"TYPES.Actor.vehiclePl": "Vehicles",
+"TYPES.Actor.character": "Personaggio Giocante",
+"TYPES.Actor.characterPl": "Personaggi Giocanti",
+"TYPES.Actor.encounter": "Combattimento",
+"TYPES.Actor.encounterPl": "Combattimenti",
+"TYPES.Actor.group": "Gruppo",
+"TYPES.Actor.groupPl": "Gruppi",
+"TYPES.Actor.npc": "Personaggio Non Giocante",
+"TYPES.Actor.npcPl": "Personaggi Non Giocanti",
+"TYPES.Actor.vehicle": "Veicolo",
+"TYPES.Actor.vehiclePl": "Veicoli",
 
-"TYPES.ActiveEffect.enchantment": "Enchantment",
-"TYPES.ActiveEffect.enchantmentPl": "Enchantments",
+"TYPES.ActiveEffect.enchantment": "Incantesimo",
+"TYPES.ActiveEffect.enchantmentPl": "Incantesimi",
 
 "TYPES.ChatMessage": {
-  "request": "Request Message",
-  "rest": "Rest Message",
-  "turn": "Combat Turn Message"
+  "request": "Messaggio di Richiesta",
+  "rest": "Messaggio di Riposo",
+  "turn": "Messaggio Turno di Combattimento"
 },
 
 "TYPES.Item.background": "Background",
-"TYPES.Item.backgroundPl": "Backgrounds",
-"TYPES.Item.container": "Container",
-"TYPES.Item.containerPl": "Containers",
-"TYPES.Item.class": "Class",
-"TYPES.Item.classPl": "Classes",
-"TYPES.Item.consumable": "Consumable",
-"TYPES.Item.consumablePl": "Consumables",
-"TYPES.Item.equipment": "Equipment",
-"TYPES.Item.equipmentPl": "Equipment",
-"TYPES.Item.facility": "Facility",
-"TYPES.Item.facilityPl": "Facilities",
-"TYPES.Item.feat": "Feature",
-"TYPES.Item.featurePl": "Features",
-"TYPES.Item.loot": "Loot",
-"TYPES.Item.lootPl": "Loot",
-"TYPES.Item.race": "Species",
-"TYPES.Item.racePl": "Species",
-"TYPES.Item.raceLegacy": "Race",
-"TYPES.Item.raceLegacyPl": "Races",
-"TYPES.Item.spell": "Spell",
-"TYPES.Item.spellPl": "Spells",
-"TYPES.Item.subclass": "Subclass",
-"TYPES.Item.subclassPl": "Subclasses",
-"TYPES.Item.tool": "Tool",
-"TYPES.Item.toolPl": "Tools",
-"TYPES.Item.weapon": "Weapon",
-"TYPES.Item.weaponPl": "Weapons",
+"TYPES.Item.backgroundPl": "Background",
+"TYPES.Item.container": "Contenitore",
+"TYPES.Item.containerPl": "Contenitori",
+"TYPES.Item.class": "Classe",
+"TYPES.Item.classPl": "Classi",
+"TYPES.Item.consumable": "Consumabile",
+"TYPES.Item.consumablePl": "Consumabili",
+"TYPES.Item.equipment": "Equipaggiamento",
+"TYPES.Item.equipmentPl": "Equipaggiamento",
+"TYPES.Item.facility": "Struttura",
+"TYPES.Item.facilityPl": "Strutture",
+"TYPES.Item.feat": "Talento",
+"TYPES.Item.featurePl": "Talenti",
+"TYPES.Item.loot": "Bottino",
+"TYPES.Item.lootPl": "Bottino",
+"TYPES.Item.race": "Specie",
+"TYPES.Item.racePl": "Specie",
+"TYPES.Item.raceLegacy": "Razza",
+"TYPES.Item.raceLegacyPl": "Razze",
+"TYPES.Item.spell": "Incantesimo",
+"TYPES.Item.spellPl": "Incantesimi",
+"TYPES.Item.subclass": "Sottoclasse",
+"TYPES.Item.subclassPl": "Sottoclassi",
+"TYPES.Item.tool": "Strumento",
+"TYPES.Item.toolPl": "Strumenti",
+"TYPES.Item.weapon": "Arma",
+"TYPES.Item.weaponPl": "Armi",
 
 "TYPES.RegionBehavior": {
-  "dnd5e.difficultTerrain": "Difficult Terrain",
-  "dnd5e.rotateArea": "Rotate Area"
+  "dnd5e.difficultTerrain": "Terreno Difficile",
+  "dnd5e.rotateArea": "Ruota Area"
 },
 
-"DND5E.title": "Dungeon & Dragons Fifth Edition",
+"DND5E.title": "Dungeons & Dragons Quinta Edizione",
 "DND5E.AbbreviationCR": "CR",
 "DND5E.AbbreviationConc": "Conc.",
-"DND5E.AbbreviationDC": "DC",
+"DND5E.AbbreviationDC": "CD",
 "DND5E.AbbreviationKg": "kg",
 "DND5E.AbbreviationLR": "LR",
 "DND5E.AbbreviationLevel": "Lvl",
@@ -73,455 +73,455 @@
 
 "DND5E.ABILITY": {
   "Configure": {
-    "CheckLabel": "{ability} Check",
-    "SaveLabel": "{ability} Save",
-    "Title": "Configure {ability}"
+    "CheckLabel": "Prova di {ability}",
+    "SaveLabel": "Tiro Salvezza di {ability}",
+    "Title": "Configura {ability}"
   },
   "SECTIONS": {
     "Bonuses": {
-      "Label": "{ability} Bonuses",
-      "Hint": "These bonuses apply to checks & saves made with {ability}."
+      "Label": "Bonus di {ability}",
+      "Hint": "Questi bonus si applicano a prove e tiri salvezza effettuati con {ability}."
     },
     "Global": {
-      "Label": "Global Bonuses",
-      "Hint": "These bonuses apply to checks & saves made with any ability."
+      "Label": "Bonus Globali",
+      "Hint": "Questi bonus si applicano a prove e tiri salvezza effettuati con qualsiasi abilità."
     },
-    "Score": "{ability} Score"
+    "Score": "Valore di {ability}"
   }
 },
 
-"DND5E.Ability": "Ability",
-"DND5E.Abilities": "Abilities",
+"DND5E.Ability": "Abilità",
+"DND5E.Abilities": "Abilità",
 "DND5E.AbilityStr": "Forza",
-"DND5E.AbilityStrAbbr": "str",
+"DND5E.AbilityStrAbbr": "for",
 "DND5E.AbilityCon": "Costituzione",
-"DND5E.AbilityConAbbr": "con",
+"DND5E.AbilityConAbbr": "cos",
 "DND5E.AbilityDex": "Destrezza",
-"DND5E.AbilityDexAbbr": "dex",
+"DND5E.AbilityDexAbbr": "des",
 "DND5E.AbilityInt": "Intelligenza",
 "DND5E.AbilityIntAbbr": "int",
 "DND5E.AbilityWis": "Saggezza",
-"DND5E.AbilityWisAbbr": "wis",
+"DND5E.AbilityWisAbbr": "sag",
 "DND5E.AbilityCha": "Carisma",
-"DND5E.AbilityChaAbbr": "cha",
-"DND5E.AbilityHon": "Honor",
-"DND5E.AbilityHonAbbr": "hon",
-"DND5E.AbilitySan": "Sanity",
+"DND5E.AbilityChaAbbr": "car",
+"DND5E.AbilityHon": "Onore",
+"DND5E.AbilityHonAbbr": "onr",
+"DND5E.AbilitySan": "Sanità Mentale",
 "DND5E.AbilitySanAbbr": "san",
-"DND5E.AbilityScore": "Ability Score",
-"DND5E.AbilityScoreShort": "Score",
-"DND5E.AbilityScorePl": "Ability Scores",
-"DND5E.AbilityScoreL": "{ability} Score",
-"DND5E.AbilityScoreMax": "Maximum Ability Score",
-"DND5E.AbilityScoreMaxShort": "Maximum",
-"DND5E.AbilityModifier": "Ability Modifier",
+"DND5E.AbilityScore": "Valore Abilità",
+"DND5E.AbilityScoreShort": "Valore",
+"DND5E.AbilityScorePl": "Valori Abilità",
+"DND5E.AbilityScoreL": "Valore di {ability}",
+"DND5E.AbilityScoreMax": "Valore Massimo dell’Abilità",
+"DND5E.AbilityScoreMaxShort": "Massimo",
+"DND5E.AbilityModifier": "Modificatore Abilità",
 "DND5E.AbilityModifierShort": "Mod",
-"DND5E.AbilityPromptText": "What type of {ability} check?",
-"DND5E.AbilityPromptTitle": "{ability} Ability Check",
-"DND5E.AbilityUseChargesLabel": "{value} Charges",
+"DND5E.AbilityPromptText": "Che tipo di prova di {ability}?",
+"DND5E.AbilityPromptTitle": "Prova di Abilità {ability}",
+"DND5E.AbilityUseChargesLabel": "{value} Cariche",
 "DND5E.AbilityUseConsumableLabel": "{max} per {per}",
-"DND5E.AbilityUseCast": "Cast Spell",
-"DND5E.AbilityUseUse": "Use Ability",
-"DND5E.AbilityUseConfig": "Usage Configuration",
-"DND5E.AbilityBonuses": "Ability Bonuses",
-"DND5E.AbilityConfigure": "Configure {ability}",
-"DND5E.AbilityConfigureTitle": "Configure {ability} Saving Throws and Checks",
-"DND5E.AbilitySaveConfigure": "{ability} Saving Throws",
-"DND5E.AbilityCheckConfigure": "{ability} Ability Checks",
-"DND5E.AbilityCheckConfigurationHint": "Configure check bonuses.",
-"DND5E.AbilityConfigurationHint": "Configure ability saving throw proficiency, saving throw bonuses, and check bonuses.",
-"DND5E.AbilityCheckBonus": "Check Bonus",
-"DND5E.AbilityCheckGlobalBonusHint": "This bonus applies to all ability checks made by this actor.",
-"DND5E.Action": "Action",
+"DND5E.AbilityUseCast": "Lancia Incantesimo",
+"DND5E.AbilityUseUse": "Usa Abilità",
+"DND5E.AbilityUseConfig": "Configurazione Uso",
+"DND5E.AbilityBonuses": "Bonus Abilità",
+"DND5E.AbilityConfigure": "Configura {ability}",
+"DND5E.AbilityConfigureTitle": "Configura Tiri Salvezza e Prove di {ability}",
+"DND5E.AbilitySaveConfigure": "Tiri Salvezza di {ability}",
+"DND5E.AbilityCheckConfigure": "Prove di {ability}",
+"DND5E.AbilityCheckConfigurationHint": "Configura i bonus alle prove.",
+"DND5E.AbilityConfigurationHint": "Configura competenza tiri salvezza, bonus ai tiri salvezza e bonus alle prove.",
+"DND5E.AbilityCheckBonus": "Bonus alla Prova",
+"DND5E.AbilityCheckGlobalBonusHint": "Questo bonus si applica a tutte le prove di abilità effettuate da questo attore.",
+"DND5E.Action": "Azione",
 "DND5E.ActionAbbr": "A",
-"DND5E.ActionPl": "Actions",
-"DND5E.ActionAbil": "Ability Check",
-"DND5E.ActionEnch": "Enchant",
-"DND5E.ActionHeal": "Heal",
-"DND5E.ActionMSAK": "Melee Spell Attack",
-"DND5E.ActionMWAK": "Melee Weapon Attack",
-"DND5E.ActionOther": "Other",
-"DND5E.ActionRSAK": "Ranged Spell Attack",
-"DND5E.ActionRWAK": "Ranged Weapon Attack",
-"DND5E.ActionSave": "Saving Throw",
-"DND5E.ActionSumm": "Summon",
-"DND5E.ActionUtil": "Utility",
-"DND5E.ActionWarningNoItem": "The requested item {item} no longer exists on Actor {name}",
-"DND5E.ActionWarningNoToken": "You must have one or more controlled Tokens in order to use this option.",
+"DND5E.ActionPl": "Azioni",
+"DND5E.ActionAbil": "Prova di Abilità",
+"DND5E.ActionEnch": "Incantesimo",
+"DND5E.ActionHeal": "Cura",
+"DND5E.ActionMSAK": "Attacco con Incantesimo da Mischia",
+"DND5E.ActionMWAK": "Attacco con Arma da Mischia",
+"DND5E.ActionOther": "Altro",
+"DND5E.ActionRSAK": "Attacco con Incantesimo a Distanza",
+"DND5E.ActionRWAK": "Attacco con Arma a Distanza",
+"DND5E.ActionSave": "Tiro Salvezza",
+"DND5E.ActionSumm": "Evocazione",
+"DND5E.ActionUtil": "Utilità",
+"DND5E.ActionWarningNoItem": "L'oggetto richiesto {item} non esiste più sull’Attore {name}",
+"DND5E.ActionWarningNoToken": "Devi avere uno o più Token controllati per usare questa opzione.",
 
 "DND5E.ACTIVATION": {
   "FIELDS": {
     "activation": {
-      "label": "Activation",
+      "label": "Attivazione",
       "condition": {
-        "label": "Activation Condition",
-        "hint": "Condition required to activate this activity."
+        "label": "Condizione di Attivazione",
+        "hint": "Condizione richiesta per attivare questa attività."
       },
       "override": {
-        "label": "Override Activation",
-        "hint": "Use these activation values instead of the item's when using this activity."
+        "label": "Sovrascrivi Attivazione",
+        "hint": "Usa questi valori di attivazione invece di quelli dell'oggetto quando usi questa attività."
       },
       "type": {
-        "label": "Activation Cost",
-        "hint": "Activation type (e.g. action, legendary action, minutes)."
+        "label": "Costo di Attivazione",
+        "hint": "Tipo di attivazione (es. azione, azione leggendaria, minuti)."
       },
       "value": {
-        "label": "Activation Value",
-        "hint": "Scalar value associated with the activation."
+        "label": "Valore di Attivazione",
+        "hint": "Valore numerico associato all'attivazione."
       }
     }
   },
   "Category": {
-    "Combat": "Combat",
-    "Monster": "Monster",
-    "Rest": "Rest",
+    "Combat": "Combattimento",
+    "Monster": "Mostro",
+    "Rest": "Riposo",
     "Standard": "Standard",
-    "Time": "Time",
-    "Vehicle": "Vehicle"
+    "Time": "Tempo",
+    "Vehicle": "Veicolo"
   },
   "Type": {
     "Action": {
-      "Header": "Actions",
-      "Label": "Action"
+      "Header": "Azioni",
+      "Label": "Azione"
     },
     "BonusAction": {
-      "Header": "Bonus Actions",
-      "Label": "Bonus Action"
+      "Header": "Azioni Bonus",
+      "Label": "Azione Bonus"
     },
     "Crew": {
       "Counted": {
-        "one": "{number} crew action",
-        "other": "{number} crew actions"
+        "one": "{number} azione dell’equipaggio",
+        "other": "{number} azioni dell’equipaggio"
       },
-      "Header": "Crew Actions",
-      "Label": "Crew Action"
+      "Header": "Azioni dell’Equipaggio",
+      "Label": "Azione dell’Equipaggio"
     },
     "Day": {
-      "Header": "Days",
-      "Label": "Day"
+      "Header": "Giorni",
+      "Label": "Giorno"
     },
     "Encounter": {
-      "Label": "Start of Encounter"
+      "Label": "Inizio Incontro"
     },
     "Hour": {
-      "Header": "Hours",
-      "Label": "Hour"
+      "Header": "Ore",
+      "Label": "Ora"
     },
     "Lair": {
-      "Header": "Lair Actions",
-      "Label": "Lair Action"
+      "Header": "Azioni del Covone",
+      "Label": "Azione del Covone"
     },
     "Legendary": {
       "Counted": {
-        "one": "{number} legendary action",
-        "other": "{number} legendary actions"
+        "one": "{number} azione leggendaria",
+        "other": "{number} azioni leggendarie"
       },
-      "Header": "Legendary Actions",
-      "Label": "Legendary Action"
+      "Header": "Azioni Leggendarie",
+      "Label": "Azione Leggendaria"
     },
     "LongRest": {
-      "Label": "End of a Long Rest"
+      "Label": "Fine di un Riposo Lungo"
     },
     "Minute": {
-      "Header": "Minutes",
-      "Label": "Minute"
+      "Header": "Minuti",
+      "Label": "Minuto"
     },
     "Mythic": {
       "Counted": {
-        "one": "{number} mythic action",
-        "other": "{number} mythic actions"
+        "one": "{number} azione mitica",
+        "other": "{number} azioni mitiche"
       },
-      "Header": "Mythic Actions",
-      "Label": "Mythic Action"
+      "Header": "Azioni Mitiche",
+      "Label": "Azione Mitica"
     },
     "Reaction": {
-      "Header": "Reactions",
-      "Label": "Reaction"
+      "Header": "Reazioni",
+      "Label": "Reazione"
     },
     "ShortRest": {
-      "Label": "End of a Short Rest"
+      "Label": "Fine di un Riposo Breve"
     },
     "TurnEnd": {
-      "Label": "End of Turn"
+      "Label": "Fine del Turno"
     },
     "TurnStart": {
-      "Label": "Start of Turn"
+      "Label": "Inizio del Turno"
     }
   },
   "Warning": {
-    "NoActions": "No {type} are available, but activating this requires at least {required}.",
-    "NotEnoughActions": "Not enough {type} to activate, {required} required but only {available} available."
+    "NoActions": "Nessuna {type} disponibile, ma l’attivazione richiede almeno {required}.",
+    "NotEnoughActions": "Non ci sono abbastanza {type} per attivare, richieste {required} ma disponibili solo {available}."
   }
 },
 
 "DND5E.ACTIVEEFFECT": {
-  "AttributeKeyTooltip": "For a list of common keys, see <a href=\"{url}\">the wiki</a>.",
+  "AttributeKeyTooltip": "Per un elenco delle chiavi comuni, consulta <a href=\"{url}\">la wiki</a>.",
   "FIELDS": {
     "statuses": {
-      "label": "Status Conditions",
-      "hint": "While affected by this Active Effect, the target will be treated as having these additional status conditions."
+      "label": "Condizioni di Stato",
+      "hint": "Mentre è soggetto a questo Effetto Attivo, il bersaglio sarà considerato come se avesse queste condizioni di stato aggiuntive."
     }
   }
 },
 
 "DND5E.ACTIVITY": {
   "Action": {
-    "Create": "Create Activity",
-    "Delete": "Delete Activity",
-    "Edit": "Edit Activity"
+    "Create": "Crea Attività",
+    "Delete": "Elimina Attività",
+    "Edit": "Modifica Attività"
   },
   "Title": {
-    "one": "Activity",
-    "other": "Activities"
+    "one": "Attività",
+    "other": "Attività"
   },
   "FIELDS": {
     "description": {
-      "label": "Description",
+      "label": "Descrizione",
       "chatFlavor": {
-        "label": "Chat Flavor",
-        "hint": "Additional text displayed in the activation chat message."
+        "label": "Testo Chat",
+        "hint": "Testo aggiuntivo mostrato nel messaggio di attivazione in chat."
       }
     },
     "effects": {
       "element": {
         "level": {
-          "label": "Level Limit",
-          "hint": "Range of levels required to apply this effect.",
+          "label": "Limite Livello",
+          "hint": "Intervallo di livelli richiesti per applicare questo effetto.",
           "max": {
-            "label": "Maximum Level"
+            "label": "Livello Massimo"
           },
           "min": {
-            "label": "Minimum Level"
+            "label": "Livello Minimo"
           }
         }
       },
-      "label": "Applied Effects"
+      "label": "Effetti Applicati"
     },
     "img": {
-      "label": "Icon"
+      "label": "Icona"
     },
     "name": {
-      "label": "Name"
+      "label": "Nome"
     },
     "visibility": {
       "identifier": {
-        "hint": "The identifier of the class that level limits apply to. If left blank, the character level is used.",
-        "label": "Class Identifier"
+        "hint": "L'identificativo della classe a cui si applicano i limiti di livello. Se lasciato vuoto, si usa il livello del personaggio.",
+        "label": "Identificativo Classe"
       },
-      "label": "Visibility",
+      "label": "Visibilità",
       "level": {
-        "hint": "Range of levels required to use this activity.",
-        "label": "Level Limit",
+        "hint": "Intervallo di livelli richiesti per usare questa attività.",
+        "label": "Limite Livello",
         "max": {
-          "label": "Maximum Level"
+          "label": "Livello Massimo"
         },
         "min": {
-          "label": "Minimum Level"
+          "label": "Livello Minimo"
         }
       },
       "requireAttunement": {
-        "hint": "Activity will not be usable if item requires attunement and isn't attuned.",
-        "label": "Require Attunement"
+        "hint": "L'attività non sarà utilizzabile se l'oggetto richiede sintonizzazione e non è sintonizzato.",
+        "label": "Richiede Sintonizzazione"
       },
       "requireIdentification": {
-        "hint": "Activity will not be usable if item isn't identified.",
-        "label": "Require Identification"
+        "hint": "L'attività non sarà utilizzabile se l'oggetto non è identificato.",
+        "label": "Richiede Identificazione"
       },
       "requireMagic": {
-        "hint": "Activity will not be usable if magic isn't available.",
-        "label": "Require Magic"
+        "hint": "L'attività non sarà utilizzabile se la magia non è disponibile.",
+        "label": "Richiede Magia"
       }
     }
   },
   "SECTIONS": {
-    "Activation": "Activation",
-    "Behavior": "Behavior",
-    "Effect": "Effect",
-    "Identity": "Identity",
-    "Time": "Time"
+    "Activation": "Attivazione",
+    "Behavior": "Comportamento",
+    "Effect": "Effetto",
+    "Identity": "Identità",
+    "Time": "Tempo"
   },
   "Warning": {
-    "UsageNotAllowed": "Using this activity isn't currently possible."
+    "UsageNotAllowed": "Non è possibile usare questa attività al momento."
   }
 },
 
 "DND5E.ACTOR": {
   "Warning": {
-    "CreateActor": "You must have 'Create New Actors' permission in order to summon directly from a compendium.",
-    "InvalidItem": "{itemType} items cannot be added to a {actorType}.",
-    "NoActor": "Actor cannot be found with UUID '{uuid}' to summon.",
-    "Singleton": "Only a single {itemType} can be added to a {actorType}."
+    "CreateActor": "Devi avere il permesso 'Crea Nuovi Attori' per evocare direttamente da un compendio.",
+    "InvalidItem": "Gli oggetti di tipo {itemType} non possono essere aggiunti a un {actorType}.",
+    "NoActor": "Impossibile trovare l'attore con UUID '{uuid}' per evocarlo.",
+    "Singleton": "Solo un singolo {itemType} può essere aggiunto a un {actorType}."
   }
 },
 
-"DND5E.ActiveEffectOverrideWarning": "This value is being modified by an Active Effect and cannot be edited. Disable the effect to edit it.",
-"DND5E.Add": "Add",
-"DND5E.AdditionalControls": "Additional Controls",
-"DND5E.AdditionalSettings": "Additional Settings",
-"DND5E.AddEmbeddedItemPromptHint": "Do you want to add these items to your character sheet?",
-"DND5E.Advanced": "Advanced",
+"DND5E.ActiveEffectOverrideWarning": "Questo valore è modificato da un Effetto Attivo e non può essere modificato. Disattiva l’effetto per modificarlo.",
+"DND5E.Add": "Aggiungi",
+"DND5E.AdditionalControls": "Controlli Aggiuntivi",
+"DND5E.AdditionalSettings": "Impostazioni Aggiuntive",
+"DND5E.AddEmbeddedItemPromptHint": "Vuoi aggiungere questi oggetti alla tua scheda personaggio?",
+"DND5E.Advanced": "Avanzate",
 
 "DND5E.ADVANCEMENT": {
   "AbilityScoreImprovement": {
     "Action": {
-      "Select": "Select Feat"
+      "Select": "Seleziona Talento"
     },
     "CapDisplay": {
-      "one": "Max {points} point per score",
-      "other": "Max {points} points per score"
+      "one": "Massimo {points} punto per punteggio",
+      "other": "Massimo {points} punti per punteggio"
     },
-    "Details": "Improvement Details",
+    "Details": "Dettagli Miglioramento",
     "Feat": {
-      "ASIName": "Ability Score Improvement Feat",
-      "Hint": "Drop a feat here to choose one instead of an ability score improvement."
+      "ASIName": "Talento Miglioramento Abilità",
+      "Hint": "Trascina un talento qui per sceglierne uno invece del miglioramento del punteggio abilità."
     },
     "FIELDS": {
       "cap": {
-        "hint": "Maximum number of points a player can assign to a single score.",
-        "label": "Point Cap"
+        "hint": "Numero massimo di punti che un giocatore può assegnare a un singolo punteggio.",
+        "label": "Massimo Punti"
       },
       "fixed": {
-        "hint": "Abilities that are improved by a fixed amount and cannot be manually improved during the process.",
-        "label": "Fixed Improvement"
+        "hint": "Abilità migliorate di un valore fisso e non modificabili manualmente durante il processo.",
+        "label": "Miglioramento Fisso"
       },
       "locked": {
-        "hint": "Ability cannot be improved.",
-        "label": "Locked",
-        "locked": "Ability cannot be improved.",
-        "unlocked": "Ability may be improved."
+        "hint": "L’abilità non può essere migliorata.",
+        "label": "Bloccata",
+        "locked": "L’abilità non può essere migliorata.",
+        "unlocked": "L’abilità può essere migliorata."
       },
       "max": {
-        "hint": "Increase the maximum score from what is allowed on the actor.",
-        "label": "Maximum"
+        "hint": "Aumenta il punteggio massimo rispetto a quanto consentito sull’attore.",
+        "label": "Massimo"
       },
       "points": {
-        "decrease": "Decrease Points",
-        "hint": "Number of points that can be assigned to any unlocked ability score.",
-        "increase": "Increase Points",
-        "label": "Points"
+        "decrease": "Diminuisci Punti",
+        "hint": "Numero di punti che possono essere assegnati a qualsiasi punteggio abilità sbloccato.",
+        "increase": "Aumenta Punti",
+        "label": "Punti"
       },
       "recommendation": {
-        "hint": "Epic Boon feat recommended by this class.",
-        "label": "Recommendation"
+        "hint": "Talento Epico consigliato da questa classe.",
+        "label": "Raccomandazione"
       }
     },
-    "Hint": "Allow the player to increase one or more ability scores or take an optional feat.",
+    "Hint": "Permette al giocatore di aumentare uno o più punteggi abilità o scegliere un talento opzionale.",
     "Journal": {
-      "DescriptionEpic": "<p>You gain an Epic Boon feat or another feat of your choice for which you qualify.</p>",
-      "DescriptionEpicRecommendation": "<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. {recommendation} is recommended.</p>",
-      "DescriptionLegacy": "<p>When you reach {firstLevelOrdinal} level, and again at {otherLevelsOrdinal} level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above {maxAbilityScore} using this feature.</p><p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
-      "DescriptionModern": "<p>You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at {class} levels {otherLevels}.</p>",
-      "Name": "Ability Score Improvement"
+      "DescriptionEpic": "<p>Ottieni un talento Epico o un altro talento a tua scelta per cui sei qualificato.</p>",
+      "DescriptionEpicRecommendation": "<p>Ottieni un talento Epico o un altro talento a tua scelta per cui sei qualificato. Si consiglia {recommendation}.</p>",
+      "DescriptionLegacy": "<p>Quando raggiungi il livello {firstLevelOrdinal}, e di nuovo al livello {otherLevelsOrdinal}, puoi aumentare un punteggio abilità a tua scelta di 2, oppure aumentare due punteggi abilità di 1. Come normale, non puoi aumentare un punteggio abilità oltre {maxAbilityScore} usando questa caratteristica.</p><p>Usando la regola dei talenti opzionali, puoi rinunciare a questa caratteristica per prendere un talento a tua scelta.</p>",
+      "DescriptionModern": "<p>Ottieni il talento Miglioramento Punteggi Abilità o un altro talento a tua scelta per cui sei qualificato. Ottieni questa caratteristica di nuovo ai livelli {otherLevels} di {class}.</p>",
+      "Name": "Miglioramento Punteggio Abilità"
     },
-    "LockedHint": "Scores cannot be modified with a feat selected.",
+    "LockedHint": "I punteggi non possono essere modificati se è selezionato un talento.",
     "PointsRemaining": {
-      "one": "{points} Point Remaining",
-      "other": "{points} Points Remaining"
+      "one": "{points} Punto Rimanente",
+      "other": "{points} Punti Rimanenti"
     },
-    "Title": "Ability Score Improvement",
-    "TitleEpic": "Epic Boon",
+    "Title": "Miglioramento Punteggio Abilità",
+    "TitleEpic": "Benedizione Epica",
     "Warning": {
-      "Type": "Only features with the \"feat\" type can be selected."
+      "Type": "Possono essere selezionate solo caratteristiche di tipo \"feat\"."
     }
   },
   "Action": {
-    "Create": "Create Advancement",
-    "Delete": "Delete Advancement",
-    "Duplicate": "Duplicate Advancement",
-    "Edit": "Edit Advancement",
-    "View": "View Advancement"
+    "Create": "Crea Avanzamento",
+    "Delete": "Elimina Avanzamento",
+    "Duplicate": "Duplica Avanzamento",
+    "Edit": "Modifica Avanzamento",
+    "View": "Visualizza Avanzamento"
   },
   "Config": {
-    "AnyLevel": "Any",
-    "Details": "Advancement Details"
+    "AnyLevel": "Qualsiasi",
+    "Details": "Dettagli Avanzamento"
   },
   "Defaults": {
-    "BackgroundFeat": "Background Feat",
-    "BackgroundFeature": "Background Feature",
-    "BackgroundProficiencies": "Background Proficiencies",
-    "ChooseLanguages": "Choose Languages"
+    "BackgroundFeat": "Talento Retroscena",
+    "BackgroundFeature": "Caratteristica Retroscena",
+    "BackgroundProficiencies": "Competenze Retroscena",
+    "ChooseLanguages": "Scegli Lingue"
   },
   "HitPoints": {
     "Action": {
-      "Roll": "Roll {die}"
+      "Roll": "Tira {die}"
     },
-    "Average": "Average",
-    "Hint": "Track the player's hit points for each level in the class.",
-    "MaxAtFirstLevel": "Max at 1st Level: <strong>{max}</strong>",
-    "Roll": "Roll {class} Hit Points",
-    "Starting": "Hit Points at 1st Level",
-    "TakeAverage": "Take Average",
-    "Title": "Hit Points",
+    "Average": "Media",
+    "Hint": "Traccia i punti ferita del giocatore per ogni livello nella classe.",
+    "MaxAtFirstLevel": "Massimo al 1° Livello: <strong>{max}</strong>",
+    "Roll": "Tira Punti Ferita {class}",
+    "Starting": "Punti Ferita al 1° Livello",
+    "TakeAverage": "Usa Media",
+    "Title": "Punti Ferita",
     "Warning": {
-      "Empty": "Hit points must be rolled or the average value must be taken.",
-      "Invalid": "Hit points must be a valid whole number."
+      "Empty": "I punti ferita devono essere tirati o deve essere preso il valore medio.",
+      "Invalid": "I punti ferita devono essere un numero intero valido."
     }
   },
   "ItemChoice": {
     "Action": {
-      "SelectGeneric": "Select Item",
-      "SelectSpecific": "Select {type}"
+      "SelectGeneric": "Seleziona Oggetto",
+      "SelectSpecific": "Seleziona {type}"
     },
-    "Choose": "choose {count}",
-    "Chosen": "Chosen: {current} of {max}",
-    "Details": "Choice Details",
-    "DropHint": "Drop Items here to add them to the list that can be chosen with this advancement.",
+    "Choose": "scegli {count}",
+    "Chosen": "Scelto: {current} di {max}",
+    "Details": "Dettagli Scelta",
+    "DropHint": "Trascina gli oggetti qui per aggiungerli alla lista che può essere scelta con questo avanzamento.",
     "FIELDS": {
       "allowDrops": {
-        "hint": "Allow players to be able to drop their own choices into this advancement.",
-        "label": "Allow Drops"
+        "hint": "Consenti ai giocatori di inserire le proprie scelte in questo avanzamento.",
+        "label": "Consenti Inserimenti"
       },
       "choices": {
-        "hint": "Specify how many choices are allowed at each level.",
-        "label": "Choices",
+        "hint": "Specifica quante scelte sono consentite a ogni livello.",
+        "label": "Scelte",
         "FIELDS": {
           "count": {
-            "label": "Count"
+            "label": "Conteggio"
           },
           "replacement": {
-            "label": "Allow Replacement"
+            "label": "Consenti Sostituzione"
           }
         }
       },
       "pool": {
-        "label": "Item Options"
+        "label": "Opzioni Oggetto"
       },
       "restriction": {
         "level": {
-          "Available": "Any Available Level",
-          "hint": "Only allow choices from spells of this level.",
-          "label": "Spell Level"
+          "Available": "Qualsiasi Livello Disponibile",
+          "hint": "Consenti solo scelte da incantesimi di questo livello.",
+          "label": "Livello Incantesimo"
         },
         "list": {
-          "hint": "Only allow spells from these lists.",
-          "label": "Spell Lists"
+          "hint": "Consenti solo incantesimi da queste liste.",
+          "label": "Liste Incantesimi"
         },
         "subtype": {
-          "label": "Subtype"
+          "label": "Sottotipo"
         },
         "type": {
-          "label": "Type"
+          "label": "Tipo"
         }
       },
       "type": {
-        "Any": "Anything",
-        "hint": "Restrict what Item types can be chosen.",
-        "label": "Item Type"
+        "Any": "Qualsiasi",
+        "hint": "Limita i tipi di oggetti che possono essere scelti.",
+        "label": "Tipo Oggetto"
       }
     },
-    "Hint": "Present the player with a choice of items (such as equipment, features, or spells) that they can choose for their character at one or more levels.",
+    "Hint": "Presenta al giocatore una scelta di oggetti (come equipaggiamento, caratteristiche o incantesimi) che può selezionare per il proprio personaggio a uno o più livelli.",
     "Replacement": {
-      "None": "No Replacement",
-      "Title": "replace"
+      "None": "Nessuna Sostituzione",
+      "Title": "sostituisci"
     },
-    "Title": "Choose Items",
+    "Title": "Scegli Oggetti",
     "Warning": {
-      "InvalidType": "Only {type} items can be selected for this choice.",
-      "MaxSelected": "No additional items can be selected, uncheck items before selecting more.",
-      "NoOriginal": "Previously selected choice no longer available for replacement.",
-      "SpellLevelAvailable": "Only {level} or lower spells can be chosen for this advancement.",
-      "SpellLevelSpecific": "Only {level} spells can be chosen for this advancement.",
-      "SpellList": "Only spells available on the {lists} spell list can be chosen for this advancement."
+      "InvalidType": "Possono essere selezionati solo oggetti di tipo {type}.",
+      "MaxSelected": "Non possono essere selezionati ulteriori oggetti, deseleziona quelli selezionati prima di sceglierne altri.",
+      "NoOriginal": "La scelta precedentemente selezionata non è più disponibile per la sostituzione.",
+      "SpellLevelAvailable": "Possono essere scelti solo incantesimi di livello {level} o inferiore per questo avanzamento.",
+      "SpellLevelSpecific": "Possono essere scelti solo incantesimi di livello {level} per questo avanzamento.",
+      "SpellList": "Possono essere scelti solo incantesimi disponibili nella lista {lists} per questo avanzamento."
     }
   },
   "ItemGrant": {
