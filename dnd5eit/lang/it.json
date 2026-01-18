@@ -94,15 +94,15 @@
 "DND5E.Abilities": "Abilities",
 "DND5E.AbilityStr": "Forza",
 "DND5E.AbilityStrAbbr": "str",
-"DND5E.AbilityCon": "Constitution",
+"DND5E.AbilityCon": "Costituzione",
 "DND5E.AbilityConAbbr": "con",
-"DND5E.AbilityDex": "Dexterity",
+"DND5E.AbilityDex": "Destrezza",
 "DND5E.AbilityDexAbbr": "dex",
-"DND5E.AbilityInt": "Intelligence",
+"DND5E.AbilityInt": "Intelligenza",
 "DND5E.AbilityIntAbbr": "int",
-"DND5E.AbilityWis": "Wisdom",
+"DND5E.AbilityWis": "Saggezza",
 "DND5E.AbilityWisAbbr": "wis",
-"DND5E.AbilityCha": "Charisma",
+"DND5E.AbilityCha": "Carisma",
 "DND5E.AbilityChaAbbr": "cha",
 "DND5E.AbilityHon": "Honor",
 "DND5E.AbilityHonAbbr": "hon",
@@ -3112,7 +3112,7 @@
 "DND5E.ItemEquipmentAction": "Equipment Action",
 "DND5E.ItemEquipmentBase": "Base Equipment",
 "DND5E.ItemEquipmentDetails": "Equipment Details",
-"DND5E.ItemEquipmentDexMod": "Max. Dexterity Modifier",
+"DND5E.ItemEquipmentDexMod": "Max. Destrezza Modifier",
 "DND5E.ItemEquipmentDexModAbbr": "Max Dex",
 "DND5E.ItemEquipmentProperties": "Equipment Properties",
 "DND5E.ItemEquipmentStatus": "Equipment Status",
@@ -4864,11 +4864,11 @@
         "Label": "Languages"
       },
       "Mental": {
-        "Hint": "Keep intelligence, wisdom, and charisma scores.",
+        "Hint": "Keep Intelligenza, Saggezza, and Carisma scores.",
         "Label": "Mental Abilities"
       },
       "Physical": {
-        "Hint": "Keep Forza, dexterity, and constitution scores.",
+        "Hint": "Keep Forza, Destrezza, and Costituzione scores.",
         "Label": "Physical Abilities"
       },
       "Proficiency": {
@@ -5602,8 +5602,8 @@
       "Header": "Hit Points",
       "HitDiceLegacy": "<strong>Hit Dice:</strong> {dice} per {class} level",
       "HitDiceModern": "{dice} per {class} level",
-      "Level1": "<strong>Hit Points at 1st Level:</strong> {max} + your Constitution modifier",
-      "LevelX": "<strong>Hit Points at Higher Levels:</strong> {dice} (or {average}) + your Constitution modifier per {class} level after 1st"
+      "Level1": "<strong>Hit Points at 1st Level:</strong> {max} + your Costituzione modifier",
+      "LevelX": "<strong>Hit Points at Higher Levels:</strong> {dice} (or {average}) + your Costituzione modifier per {class} level after 1st"
     },
     "ItemHint": "Drop a class here",
     "NoValidClass": "No valid class selected, press the edit button to add a class.",
@@ -5725,8 +5725,8 @@
     "Label": "Configure Combat",
     "Name": "Combat",
     "DexTiebreaker": {
-      "Name": "Dexterity Tiebreaker",
-      "Hint": "Append the raw Dexterity ability score to break ties in Initiative."
+      "Name": "Destrezza Tiebreaker",
+      "Hint": "Append the raw Destrezza ability score to break ties in Initiative."
     },
     "InitiativeScore": {
       "Name": "Initiative Score",
