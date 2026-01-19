@@ -1,11 +1,11 @@
 {
   "id": "dnd5e-it",
   "title": "D&D 5e - Italiano",
-  "description": "Traduzione italiana del sistema dnd5e per Foundry VTT",
-  "version": "0.1.3",
+  "description": "Traduzione italiana del sistema D&D 5e per Foundry VTT",
+  "version": "0.1.4",
   "authors": [
     {
-      "name": "Alessandro"
+      "name": "Alessandro Desiderio"
     }
   ],
   "compatibility": {
