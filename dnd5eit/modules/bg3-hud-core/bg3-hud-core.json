@@ -1,0 +1,232 @@
+{
+  "bg3-hud-core": {
+    "Settings": {
+      "Theme": {
+        "Name": "Impostazioni Tema",
+        "Label": "Configura Tema",
+        "Hint": "Personalizza colori, dimensioni e aspetto della HUD in stile BG3",
+        "Title": "Impostazioni Tema",
+        "General": "Generale",
+        "GeneralHint": "Parametri applicati a tutti i componenti sottostanti se non specificato.",
+        "UseGeneralEverywhere": "Usa colori Generali ovunque",
+        "UseGeneralEverywhereHint": "Se abilitato, viene utilizzata solo la sezione Generale. Disabilita per personalizzare ogni sezione.",
+        "Normal": "Normale",
+        "Hover": "Al Passaggio Mouse",
+        "BorderColor": "Colore Bordo",
+        "ContainerBackgroundColor": "Sfondo Contenitore",
+        "TertiaryBackgroundColor": "Sfondo Terziario",
+        "TextColor": "Colore Testo",
+        "TextSecondaryColor": "Testo Secondario",
+        "ContainerBorderSize": "Spessore Bordo Contenitore",
+        "ContainerBorderRadius": "Raggio Bordo Contenitore",
+        "TertiaryBorderSize": "Spessore Bordo Terziario",
+        "TertiaryBorderRadius": "Raggio Bordo Terziario",
+        "PortraitSize": "Dimensione Ritratto",
+        "CellSize": "Dimensione Cella",
+        "Portrait": "Ritratto",
+        "Hotbar": "Barra Abilità",
+        "SubContainer": "Sotto-Contenitore",
+        "SubBackgroundColor": "Sfondo Sotto-Contenitore",
+        "Cell": "Cella",
+        "DragbarColor": "Separatore Contenitore",
+        "WeaponSets": "Set di Armi",
+        "SmallContainers": "Contenitori Piccoli",
+        "SmallContainersHint": "Stile condiviso per i contenitori di controllo, visualizzazioni, filtri, passivi ed effetti attivi.",
+        "Tooltip": "Tooltip",
+        "ComponentColor": "Colore Componente",
+        "GridCells": "Celle Griglia",
+        "CellBorderWidth": "Spessore Bordo Cella",
+        "CellBorderRadius": "Raggio Bordo Cella",
+        "GridGap": "Spaziatura Griglia",
+        "Save": "Salva",
+        "Reset": "Ripristina Predefiniti",
+        "ResetSuccess": "Tema ripristinato ai predefiniti"
+      },
+      "NormalOpacity": {
+        "Name": "Opacità Normale",
+        "Hint": "L'opacità della HUD quando è visibile (da 0.1 a 1.0)"
+      },
+      "FadedOpacity": {
+        "Name": "Opacità Sfumata",
+        "Hint": "L'opacità quando la HUD sfuma dopo inattività (imposta a 1.0 per disabilitare la sfumatura)"
+      },
+      "FadeOutDelay": {
+        "Name": "Ritardo Sfumatura (secondi)",
+        "Hint": "Quanto tempo aspettare prima che la HUD sfumi (da 1 a 30 secondi)"
+      },
+      "AutoScale": {
+        "Name": "Scala Automatica",
+        "Hint": "Ridimensiona automaticamente l'interfaccia in base all'altezza dello schermo"
+      },
+      "UIScale": {
+        "Name": "Scala UI",
+        "Hint": "Percentuale di scala manuale dell'UI (50% a 300%). Usata solo quando Scala Automatica è disabilitata."
+      },
+      "UIPosition": {
+        "Name": "Posizione UI",
+        "Hint": "Dove posizionare la HUD sullo schermo",
+        "Center": "Centro",
+        "Left": "Sinistra",
+        "Right": "Destra"
+      },
+      "PosPadding": {
+        "Name": "Spaziatura Posizione",
+        "Hint": "Spaziatura orizzontale dal bordo dello schermo (pixel)"
+      },
+      "PosPaddingBottom": {
+        "Name": "Spaziatura Inferiore",
+        "Hint": "Spaziatura dal fondo dello schermo (pixel)"
+      },
+      "PassivesContainerIconsPerRow": {
+        "Name": "Icone Tratti Passivi per Riga",
+        "Hint": "Numero di icone dei Tratti Passivi visualizzate per riga prima di andare a capo"
+      },
+      "ActiveEffectsContainerIconsPerRow": {
+        "Name": "Icone Effetti Attivi per Riga",
+        "Hint": "Numero di icone degli Effetti Attivi visualizzate per riga prima di andare a capo"
+      },
+      "ShowPassiveActiveEffects": {
+        "Name": "Mostra Effetti Attivi Passivi",
+        "Hint": "Se abilitato, visualizza gli effetti attivi permanenti/passivi (nessuna durata) in aggiunta agli effetti temporanei"
+      },
+      "ShowFilters": {
+        "Name": "Mostra Icone Filtri",
+        "Hint": "Visualizza le icone dei filtri per slot incantesimi e tipo di azione sopra la barra delle abilità"
+      },
+      "ShowPortraitHPControls": {
+        "Name": "Mostra Controlli PF nel Ritratto",
+        "Hint": "Visualizza i pulsanti per impostare i PF al minimo (teschio), massimo (cuore) e il campo di inserimento PF nell'UI del ritratto"
+      },
+      "LayoutAppearance": {
+        "MenuTitle": "Layout & Aspetto",
+        "MenuName": "Layout & Aspetto",
+        "MenuLabel": "Impostazioni Layout & Aspetto",
+        "MenuHint": "Regola opacità, scala, posizionamento e densità contenitori",
+        "OpacityLegend": "Opacità & Sfumatura",
+        "ScalePositionLegend": "Scala & Posizione",
+        "ContainerConfigurationLegend": "Configurazione Contenitori"
+      },
+      "Appearance": {
+        "MenuTitle": "Impostazioni Aspetto",
+        "MenuName": "Impostazioni Aspetto",
+        "MenuLabel": "Impostazioni Aspetto",
+        "MenuHint": "Regola opacità e tempistiche di sfumatura per la HUD",
+        "Legend": "Aspetto"
+      },
+      "Layout": {
+        "MenuTitle": "Layout & Posizione",
+        "MenuName": "Layout & Posizione",
+        "MenuLabel": "Impostazioni Layout & Posizione",
+        "MenuHint": "Regola scala e posizionamento della HUD",
+        "Legend": "Layout & Posizione"
+      },
+      "FoundryUI": {
+        "MenuTitle": "UI Foundry",
+        "MenuName": "UI Foundry",
+        "MenuLabel": "Impostazioni UI Foundry",
+        "MenuHint": "Controlla visibilità barra macro e tempistiche tooltip",
+        "Legend": "UI Foundry"
+      },
+      "GMHotbar": {
+        "MenuTitle": "Barra Abilità GM",
+        "MenuName": "Barra Abilità GM",
+        "MenuLabel": "Impostazioni Barra Abilità GM",
+        "MenuHint": "Configura visibilità barra abilità del GM",
+        "Legend": "Barra Abilità GM"
+      },
+      "TargetSelector": {
+        "MenuTitle": "Selettore Bersaglio",
+        "MenuName": "Selettore Bersaglio",
+        "MenuLabel": "Impostazioni Selettore Bersaglio",
+        "MenuHint": "Configura la selezione bersagli in stile BG3 per incantesimi e abilità",
+        "Legend": "Selezione Bersaglio",
+        "EnableName": "Abilita Selettore Bersaglio",
+        "EnableHint": "Se abilitato, cliccare incantesimi/abilità che necessitano bersagli chiederà la selezione bersaglio",
+        "SkipName": "Salta se Esiste Bersaglio Valido",
+        "SkipHint": "Salta il selettore bersaglio se hai già un bersaglio valido selezionato",
+        "RangeName": "Applica Controllo Distanza",
+        "RangeHint": "Impedisce di bersagliare token fuori portata",
+        "AutoSelfName": "Auto-Bersaglia Sé Stessi",
+        "AutoSelfHint": "Bersaglia automaticamente te stesso per abilità auto-dirette",
+        "RangeIndicatorLegend": "Indicatore Portata",
+        "ShowRangeIndicatorsName": "Mostra Indicatore Portata",
+        "ShowRangeIndicatorsHint": "Visualizza un indicatore grafico che mostra la portata dell'abilità sulla tela",
+        "RangeShapeName": "Forma Indicatore",
+        "RangeShapeHint": "Forma dell'indicatore di portata (cerchio o quadrato)",
+        "RangeShapeCircle": "Cerchio",
+        "RangeShapeSquare": "Quadrato",
+        "RangeAnimationName": "Animazione Indicatore",
+        "RangeAnimationHint": "Stile di animazione per l'indicatore di portata",
+        "RangeAnimationPulse": "Pulsante",
+        "RangeAnimationStatic": "Statico",
+        "RangeLineWidthName": "Spessore Linea",
+        "RangeLineWidthHint": "Spessore della linea dell'indicatore di portata",
+        "RangeLineWidthThin": "Sottile (1px)",
+        "RangeLineWidthNormal": "Normale (2px)",
+        "RangeLineWidthThick": "Spesso (3px)",
+        "RangeLineWidthExtraThick": "Molto Spesso (4px)",
+        "RangeColorName": "Colore Indicatore",
+        "RangeColorHint": "Colore dell'indicatore di portata (formato esadecimale)"
+      },
+      "PortraitData": {
+        "Title": "Configurazione Dati Ritratto",
+        "MenuName": "Dati Ritratto",
+        "MenuLabel": "Configura Dati Ritratto",
+        "MenuHint": "Visualizza badge dati attorno al ritratto (CA, Velocità, Punti Eroismo, ecc.)",
+        "ShowName": "Mostra Dati Ritratto",
+        "ShowHint": "Visualizza badge dati attorno al ritratto del personaggio",
+        "TopLeft": "In Alto a Sinistra",
+        "TopRight": "In Alto a Destra",
+        "MiddleLeft": "A Sinistra al Centro",
+        "MiddleRight": "A Destra al Centro",
+        "BottomLeft": "In Basso a Sinistra",
+        "BottomRight": "In Basso a Destra",
+        "Saved": "Configurazione dati ritratto salvata",
+        "WorldOverride": "Usa Configurazione Mondiale (Tutti i Giocatori)",
+        "SyncToWorld": "Sincronizza al Mondo",
+        "SyncedToWorld": "Dati ritratto sincronizzati al mondo - tutti i giocatori useranno ora questa configurazione",
+        "WorldConfigActive": "Il tuo GM ha impostato una configurazione mondiale",
+        "UseMyOwnConfig": "Usa invece la mia configurazione"
+      }
+    },
+    "Controls": {
+      "Lock": {
+        "Tooltip": "Blocca Impostazioni<br>(Tasto destro per opzioni)",
+        "NoSettingsWarning": "Per favore fai clic destro sul pulsante di blocco per selezionare quali impostazioni bloccare.",
+        "DeselectToken": "Deselezionando Token",
+        "Opacity": "Opacità",
+        "DragDrop": "Trascina & Rilascia"
+      }
+    },
+    "Tooltips": {
+      "InfoButton": "Info Personaggio<br><small>Tasto destro per Iniziativa</small>",
+      "SwitchWeaponSet": "Clic: Passa al set di armi {number}"
+    },
+    "TargetSelector": {
+      "Instructions": "Seleziona {min}-{max} bersagli. Premi {confirm} per confermare, {cancel} per annullare.",
+      "AdjustTargets": "Regola bersagli con {plus}/{minus}",
+      "Activated": "Selezione bersaglio attiva. Premi {confirm} per confermare, {cancel} per annullare.",
+      "Confirm": "Conferma",
+      "Cancel": "Annulla",
+      "SelectedTargets": "Bersagli Selezionati",
+      "NoTargetsSelected": "Nessun bersaglio selezionato",
+      "RemoveTarget": "Rimuovi Bersaglio",
+      "Unlimited": "illimitato",
+      "InvalidTarget": "Bersaglio non valido",
+      "NoActor": "Il bersaglio non ha un attore",
+      "TokenNotVisible": "Il bersaglio non è visibile",
+      "SelfOnly": "Può bersagliare solo sé stesso",
+      "CannotTargetSelf": "Non può bersagliare sé stesso",
+      "MustBeEnemy": "Deve bersagliare un nemico",
+      "MustBeAlly": "Deve bersagliare un alleato",
+      "MustBeCreature": "Deve bersagliare una creatura",
+      "OutOfRange": "Il bersaglio è fuori portata",
+      "Flanked": "Accerchiato",
+      "MaxTargetsReached": "Raggiunto il massimo di {max} bersagli",
+      "MinTargetsRequired": "Richiesto un minimo di {min} bersagli",
+      "IncreaseMax": "Aumenta Massimo Bersagli",
+      "DecreaseMax": "Riduci Massimo Bersagli"
+    },
+    "MaxSelectionsReached": "Raggiunto il massimo di {max} selezioni"
+  }
+}
