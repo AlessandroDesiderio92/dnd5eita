@@ -2,7 +2,7 @@
   "id": "dnd5e-it",
   "title": "D&D 5e - Italiano",
   "description": "Traduzione italiana del sistema D&D 5e per Foundry VTT",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "authors": [
     {
       "name": "Alessandro Desiderio"
@@ -17,11 +17,6 @@
       "lang": "it",
       "name": "Italiano",
       "path": "lang/it.json"
-    },
-    {
-      "lang": "it",
-      "name": "Italiano",
-      "path": "lang/bg3-hud-core.json"
     }
   ],
   "manifest": "https://raw.githubusercontent.com/AlessandroDesiderio92/dnd5eita/refs/heads/main/dnd5eit/module.json",
