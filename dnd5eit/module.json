@@ -16,12 +16,12 @@
     {
       "lang": "it",
       "name": "Italiano",
-      "path": "system/it.json"
+      "path": "lang/it.json"
     },
     {
       "lang": "it",
       "name": "Italiano",
-      "path": "bg3-hud-core/bg3-hud-core.json"
+      "path": "lang/bg3-hud-core.json"
     }
   ],
   "manifest": "https://raw.githubusercontent.com/AlessandroDesiderio92/dnd5eita/refs/heads/main/dnd5eit/module.json",
