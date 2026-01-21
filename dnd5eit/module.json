@@ -18,6 +18,12 @@
       "name": "Italiano",
       "path": "lang/it.json",
       "system": "dnd5e"
+    },
+    {
+      "lang": "it",
+      "name": "Italiano",
+      "path": "lang/bg3-hud-core.json",
+      "system": "bg3-hud-core"
     }
   ],
   "manifest": "https://raw.githubusercontent.com/AlessandroDesiderio92/dnd5eita/refs/heads/main/dnd5eit/module.json",
