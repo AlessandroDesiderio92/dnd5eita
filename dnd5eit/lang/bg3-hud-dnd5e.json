@@ -1,0 +1,211 @@
+{
+  "BG3HUD": {
+    "Rest": "Riposo",
+    "RestTooltip": "Riposo<br><span style='font-size: 0.85em; opacity: 0.8;'>Clic: Scegli tipo riposo<br>Ctrl+Clic: Riposo Breve<br>Alt+Clic: Riposo Lungo</span>",
+    "ChooseRestType": "Scegli un tipo di riposo:",
+    "EndTurn": "Termina Turno"
+  },
+  "bg3-hud-dnd5e": {
+    "Settings": {
+      "AutoPopulateConfiguration": "Configurazione Auto-Popolamento",
+      "ConfigureAutoPopulateGrids": "Configura Griglie Auto-Popolamento",
+      "ConfigureGrids": "Configura Griglie",
+      "ConfigureGridsHint": "Configura quali tipi di oggetti auto-popolare in ciascuna griglia quando viene creato un token",
+      "ConfigureAutoPopulateDescription": "Assegna tipi di oggetti alle griglie della barra abilità <strong>solo per PNG</strong>. Ogni tipo può essere assegnato solo a una griglia.<br><small>Nota: I personaggi giocatore dovrebbero usare clic destro → Auto-Popola Contenitore invece.</small>",
+      "AutoPopulatePassives": "Auto-Popola Passivi",
+      "AutoPopulatePassivesHint": "Popola automaticamente il contenitore passivi con talenti che non hanno attività quando viene creato un token",
+      "ShowItemNames": "Mostra Nomi Oggetti",
+      "ShowItemNamesHint": "Visualizza i nomi degli oggetti sulle celle della barra abilità",
+      "ShowItemUses": "Mostra Utilizzi Oggetti",
+      "ShowItemUsesHint": "Visualizza gli utilizzi rimanenti sugli oggetti che hanno utilizzi limitati",
+      "ShowHealthOverlay": "Mostra Sovrapposizione Salute",
+      "ShowHealthOverlayHint": "Visualizza la sovrapposizione rossa del danno sulle immagini del ritratto",
+      "ShowHPControls": "Mostra Pulsanti Controllo PF",
+      "ShowHPControlsHint": "Visualizza i pulsanti uccidi (teschio) e cura (cuore) nei controlli PF del ritratto",
+      "EnableCPRGenericActions": "Abilita Pulsante Azioni Generiche CPR",
+      "EnableCPRGenericActionsHint": "Mostra un pulsante verticale accanto al contenitore vantaggio che attiva la finestra Azioni Generiche (2024) di CPR",
+      "EnableCPRActionsAutoPopulate": "Abilita Auto-Popolamento Azioni CPR",
+      "EnableCPRActionsAutoPopulateHint": "Popola automaticamente l'accesso rapido con azioni CPR quando vengono creati token (utilizza il compendio 2014 o 2024 in base all'impostazione Versione Regole D&D 5e). Se le azioni sono selezionate manualmente, queste hanno priorità.",
+      "SelectedCPRActions": "Azioni CPR Selezionate",
+      "SelectedCPRActionsHint": "Azioni CPR selezionate manualmente da mostrare nell'accesso rapido (configura tramite il menu 'Seleziona Azioni CPR'). L'elenco è popolato con il compendio corrispondente alla tua Versione Regole D&D 5e.",
+      "BlockCPRActionsOnHotbar": "Blocca Azioni CPR sulla Barra Abilità",
+      "BlockCPRActionsOnHotbarHint": "Impedisce alle Azioni Generiche CPR di essere trascinate sulla barra abilità. Gli elementi derivati come 'Lotta: Sfuggire' sono ancora consentiti.",
+      "EnableAdvBtnsMidiQoL": "Abilita Pulsanti Vantaggio/Svantaggio (Midi-QoL)",
+      "EnableAdvBtnsMidiQoLHint": "Aggiunge pulsanti vantaggio/svantaggio al contenitore bonus situazionali quando Midi-QoL è attivo",
+      "AutoPopulateOnTokenCreation": "Auto-popolamento alla Creazione Token",
+      "AutoPopulateOnTokenCreationHint": "Popola automaticamente le griglie della barra abilità con oggetti quando viene creato un token",
+      "AutoPopulatePlayerCharacters": "Permetti Auto-Popolamento per Personaggi Giocatore",
+      "AutoPopulatePlayerCharactersHint": "⚠️ ATTENZIONE: Questo sovrascrive il comportamento predefinito e permette l'auto-popolamento per i personaggi giocatore. NON è raccomandato poiché i giocatori dovrebbero avere libertà di personalizzare la propria HUD. Abilita solo se comprendi le implicazioni.",
+      "FilterPreparedSpellsPlayers": "Filtra Incantesimi Preparati (Giocatori)",
+      "FilterPreparedSpellsPlayersHint": "Mostra solo incantesimi preparati per i personaggi giocatore. Gli incantesimi a volontà, innati e magia del patto sono sempre inclusi.",
+      "FilterPreparedSpellsNPCs": "Filtra Incantesimi Preparati (PNG)",
+      "FilterPreparedSpellsNPCsHint": "Mostra solo incantesimi preparati per i PNG. Gli incantesimi a volontà, innati e magia del patto sono sempre inclusi.",
+      "AutoPopulateConfigurationHint": "Configura quali tipi di oggetti auto-popolare in ciascuna griglia (riservato al GM)",
+      "Display": {
+        "MenuTitle": "Impostazioni Visualizzazione",
+        "MenuName": "Impostazioni Visualizzazione",
+        "MenuLabel": "Impostazioni Visualizzazione",
+        "MenuHint": "Attiva/disattiva nomi oggetti e utilizzi sulle celle della barra abilità",
+        "Legend": "Visualizzazione"
+      },
+      "AutoPopulate": {
+        "MenuTitle": "Impostazioni Auto-Popolamento",
+        "MenuName": "Impostazioni Auto-Popolamento",
+        "MenuLabel": "Impostazioni Auto-Popolamento",
+        "MenuHint": "Controlla il popolamento automatico di griglie e passivi",
+        "Legend": "Auto-Popolamento"
+      },
+      "ThirdParty": {
+        "MenuTitle": "Moduli di Terze Parti",
+        "MenuName": "Moduli di Terze Parti",
+        "MenuLabel": "Moduli di Terze Parti",
+        "MenuHint": "Configura integrazione con moduli di terze parti come CPR e Midi-QoL",
+        "CPR": {
+          "Legend": "Chris's Premades (CPR)"
+        },
+        "Midi": {
+          "Legend": "Midi-QoL"
+        }
+      }
+    },
+    "AutoPopulate": {
+      "Groups": {
+        "Combat": "Combattimento",
+        "Consumables": "Consumabili",
+        "Wondrous": "Meravigliosi",
+        "Other": "Altro"
+      },
+      "ItemTypes": {
+        "Weapons": "Armi",
+        "FeaturesActions": "Caratteristiche & Azioni",
+        "Spells": "Incantesimi",
+        "Ammunition": "Munizioni",
+        "Potions": "Pozioni",
+        "Poisons": "Veleni",
+        "Scrolls": "Pergamene",
+        "FoodDrink": "Cibo & Bevande",
+        "Equipment": "Equipaggiamento",
+        "Wands": "Bacchette",
+        "Rods": "Verghe",
+        "Trinkets": "Ninnoli",
+        "Tools": "Utensili",
+        "Loot": "Bottino"
+      }
+    },
+    "Filters": {
+      "Action": "Azione",
+      "BonusAction": "Azione Bonus",
+      "Reaction": "Reazione",
+      "LegendaryAction": "Azione Leggendaria",
+      "Feature": "Caratteristica",
+      "Cantrip": "Trucchetto",
+      "SpellLevel": "Livello Incantesimo",
+      "SpellSlots": "Slot Incantesimi",
+      "PactMagic": "Magia del Patto",
+      "ApothecaryMagic": "Magia dello Speziale"
+    },
+    "Info": {
+      "Skills": "Abilità",
+      "ChecksSaves": "Prove & Tiri Salvezza",
+      "Abilities": {
+        "Strength": "Forza",
+        "Dexterity": "Destrezza",
+        "Constitution": "Costituzione",
+        "Intelligence": "Intelligenza",
+        "Wisdom": "Saggezza",
+        "Charisma": "Carisma"
+      },
+      "SkillNames": {
+        "Acrobatics": "Acrobazia",
+        "AnimalHandling": "Addestrare Animali",
+        "Arcana": "Arcana",
+        "Athletics": "Atletica",
+        "Deception": "Inganno",
+        "History": "Storia",
+        "Insight": "Intuizione",
+        "Intimidation": "Intimidire",
+        "Investigation": "Indagare",
+        "Medicine": "Medicina",
+        "Nature": "Natura",
+        "Perception": "Percezione",
+        "Performance": "Intrattenere",
+        "Persuasion": "Persuasione",
+        "Religion": "Religione",
+        "SleightOfHand": "Rapidità di Mano",
+        "Stealth": "Furtività",
+        "Survival": "Sopravvivenza"
+      },
+      "CheckFormat": "Prova di {ability}",
+      "SaveFormat": "Tiro Salvezza {ability}"
+    },
+    "Portrait": {
+      "SetTo0HP": "Imposta a 0 PF",
+      "FullHeal": "Cura Completa"
+    },
+    "Menu": {
+      "UseTokenImage": "Usa Immagine Token",
+      "UseCharacterPortrait": "Usa Ritratto Personaggio",
+      "ScaleWithToken": "Scala con Token",
+      "ScaleWithTokenHint": "Ridimensiona l'immagine del ritratto per corrispondere alla scala del token",
+      "Check": "Prova",
+      "Save": "Tiro Salvezza"
+    },
+    "Passives": {
+      "SelectPassiveFeatures": "Seleziona Caratteristiche Passive",
+      "SaveForAllTokens": "Salva per tutti i token di questo tipo",
+      "SaveForAllTokensHint": "Applica questa selezione a tutti i token futuri di questo attore"
+    },
+    "Advantage": {
+      "ADV": "VANT",
+      "DIS": "SVANT",
+      "AdvTooltip": "Clic sinistro per impostare Vantaggio solo per il tiro.<br>Clic destro per attivare/disattivare.",
+      "DisTooltip": "Clic sinistro per impostare Svantaggio solo per il tiro.<br>Clic destro per attivare/disattivare."
+    },
+    "Tooltips": {
+      "ActiveEffect": "Effetto Attivo"
+    },
+    "RestDialog": {
+      "ShortRest": "Riposo Breve",
+      "LongRest": "Riposo Lungo"
+    },
+    "CPR": {
+      "GenericActionsButton": {
+        "Label": "AZIONI",
+        "Tooltip": "Clic per aprire la finestra Azioni Generiche CPR"
+      },
+      "SelectActionsTitle": "Seleziona Azioni Generiche CPR",
+      "SelectActionsDescription": "Seleziona fino a {max} Azioni Generiche CPR da mostrare nell'accesso rapido. L'elenco è popolato con il compendio corrispondente alla tua Versione Regole D&D 5e (2014/Legacy o 2024/Modern).",
+      "SelectActionsMenuName": "Seleziona Azioni CPR",
+      "SelectActionsMenuLabel": "Seleziona Azioni CPR",
+      "SelectActionsMenuHint": "Scegli quali Azioni Generiche CPR visualizzare nell'accesso rapido (fino a 6, in base alla Versione Regole)",
+      "NoActionsAvailable": "Nessuna azione CPR disponibile. Assicurati che il modulo Chris's Premades sia installato e che esista il compendio CPRActions appropriato per la tua Versione Regole.",
+      "MaxSelectionsReached": "È possibile selezionare un massimo di {max} azioni",
+      "SelectionCounter": "Selezionate: {current} / {max}"
+    },
+    "Notifications": {
+      "AutoPopulateSystemNotAvailable": "Sistema auto-popolamento non disponibile",
+      "NoItemTypesAvailable": "Nessun tipo di oggetto disponibile per la configurazione",
+      "AutoPopulateConfigurationSaved": "Configurazione auto-popolamento salvata",
+      "ItemNotFound": "Oggetto non trovato",
+      "ItemCannotBeUsed": "L'oggetto non può essere utilizzato",
+      "MacroNotFound": "Macro non trovata",
+      "CPRGenericActionsNotFound": "Elemento Azioni Generiche CPR (2024) non trovato. Assicurati che il modulo Chris's Premades sia installato e attivo.",
+      "CPRGenericActionsError": "Errore nell'uso delle Azioni Generiche CPR",
+      "CPRModuleNotActive": "Il modulo Chris's Premades non è attivo. Per favore abilitalo per usare le funzionalità CPR.",
+      "CPRActionsSelectionSaved": "Selezione azioni CPR salvata",
+      "CPRActionNotFound": "Azione CPR non trovata",
+      "CPRActionError": "Errore nell'uso dell'azione CPR",
+      "ShortRestNotAvailable": "Riposo breve non disponibile per questo attore",
+      "LongRestNotAvailable": "Riposo lungo non disponibile per questo attore",
+      "SlotOccupiedByTwoHandedWeapon": "Questo slot è occupato da un'arma a due mani",
+      "FailedToRollInitiative": "Impossibile tirare per l'iniziativa",
+      "CPRActionBlockedFromHotbar": "Le Azioni Generiche CPR non possono essere aggiunte alla barra abilità. Usa invece la griglia di accesso rapido.",
+      "ActivityNotFound": "Attività non trovata",
+      "ActivityCannotBeUsed": "L'attività non può essere utilizzata"
+    },
+    "AutoPopulateOptions": {
+      "IncludeActivities": "Includi Attività Individuali",
+      "IncludeActivitiesHint": "Se abilitato, gli oggetti con attività multiple (es. armi da lancio) aggiungeranno ogni attività separatamente invece dell'oggetto genitore"
+    }
+  }
+}
